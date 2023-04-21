@@ -1,13 +1,5 @@
 # Python Task 1
 
-Complete the function in `main.py`, by merging the information from list_1 and list_2
-to create a new list, which has all the information about each student from
-both lists in one single dict.
+This code uses a for loop to iterate over the students in list_1 and a list comprehension to find the corresponding student in list_2 (if it exists) based on the student ID. It then uses dictionary unpacking to merge the information from both dictionaries into a new dictionary and appends it to the merged_list.
 
-- Both lists are unsorted
-- Both lists can have missing values (for ex list_2 has missing id=2)
-
-# Submission Guidelines
-
-- You need to submit the task, completed by `11:59PM IST - 21st April, 2023`.
-- You need to push the updated code in a Github repository in your own account and submit the link to the repository in [this form](https://forms.gle/6i5wrfDwr661JXY79).
+Finally, the code adds any students from list_2 that are not already in the merged_list and returns the final merged_list
